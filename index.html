@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="index.css" rel="stylesheet" type="text/css" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+  <div class="left">
+    <span id="headname">Abhishek</span> | Portfolio | Home 
+  </div>
+<div class="right">
+  <ul> 
+    
+    <li><a link href ="index.html"> Home</a></li>
+    <li><a link href ="about.html">About</a></li>
+    <li><a link href ="projects.html">Projects</a></li>
+    <li><a link href ="contacts.html">Contacts</a></li>
+    
+  </ul>
+</div>
+    </nav>
+  </header> 
+
+  <main>
+    <section class ="firstSection">
+    <div class="leftSection">
+      Hi I am <span id="name">Abhishek </span>
+      <div>
+      <span id= "element"> </span>
+        
+    </div> 
+    </div>
+      <div class="rightSection">
+        <img src="berserk.png">
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Learning webdev', 'Pop Culture enthusiast'],
+      typeSpeed: 40,
+    });
+  </script>
+</body>
+
+</html>
